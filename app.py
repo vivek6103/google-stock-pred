@@ -2,6 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
+
+# Ignore the ComplexWarning
+
+
 # Load the trained model from the pickle file
 with open('model12.pkl', 'rb') as file:
     model = pickle.load(file)
